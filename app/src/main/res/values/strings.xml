@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Visitas Guiadas</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha </string>
+    <string name="action_sign_in">Entre ou Registre-se</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_interesses">GAPH </string>
+    <string name="large_text">
+        ".\n\n"
+
+        "O GAPH tem como objetivo geral a pesquisa e o desenvolvimento de métodos e ferramentas para o projeto, prototipação, "
+        "implementação e validação de sistemas digitais integrados, bem como a construção de tais sistemas mediante emprego dos "
+        "métodos e ferramentas que propõe. Do ponto de vista arquitetural, a pesquisa do grupo abarca sistemas multiprocessados \n"
+        "integrados, com foco tanto na infraestrutura habilitadora de sua construção (redes de interconexão intrachip e  "
+        "processadores) como na construção e avaliação de estudos de caso de tais sistemas. Do ponto de vista de projeto de "
+        "circuitos, o grupo pesquisa temas como técnicas alternativas de projeto (e.g. para circuitos assíncronos e GALS), o teste de tais "
+        "circuitos, e a construção de bibliotecas de células para dar suporte ao projeto semi-dedicado destes circuitos. As áreas de \n"
+        "aplicação alvo abordadas pela pesquisa do grupo incluem circuitos para: telecomunicações, redes de sensores, aplicações "
+        "médicas e a Internet das coisas, entre outras."
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_interesses_real">InteressesReal</string>
+</resources>
