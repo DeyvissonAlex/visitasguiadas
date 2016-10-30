@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">Visitas Guiadas</string>
-    <string name="title_activity_login">Login</string>
+    <string name="title_activity_login">Entre no Visitas Guiadas</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Senha </string>
-    <string name="action_sign_in">Entre ou Registre-se</string>
+    <string name="action_sign_in">Faça login ou Registre-se</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Esse endereço de e-mail é inválido</string>
+    <string name="error_invalid_password">Essa senha é muito curta</string>
+    <string name="error_incorrect_password">Essa senha está incorreta</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
