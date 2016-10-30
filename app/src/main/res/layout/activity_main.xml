@@ -11,16 +11,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.pucrs.petinf.visitasguiadas.MainActivity">
 
-    <Button
-        android:text="Entre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Login"
-        android:onClick="Click"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="184dp" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,16 +19,6 @@
         android:layout_below="@+id/Login"
         android:layout_toStartOf="@+id/Login"
         android:layout_marginTop="156dp" />
-
-    <TextView
-        android:text="Bem vindo(a)"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/Login"
-        android:layout_alignEnd="@+id/Login"
-        android:layout_marginTop="94dp" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -59,5 +39,28 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="13dp"
         android:layout_marginEnd="13dp" />
+
+    <TextView
+        android:text="Bem vindo(a)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface=""
+        android:layout_marginTop="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Entre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login"
+        android:onClick="Click"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
 
 </RelativeLayout>
