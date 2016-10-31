@@ -76,7 +76,8 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"
-                android:onClick="ClickCadastro"/>
+                android:onClick="ClickCadastro"
+                android:background="@drawable/botaoredondo" />
 
         </LinearLayout>
     </ScrollView>
