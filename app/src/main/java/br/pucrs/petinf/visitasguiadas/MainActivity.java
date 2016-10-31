@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Click(View view) {
         //Acessar página de Login e cadastro
-        Button Login = (Button) findViewById(R.id.Login);
+        Button Login = (Button) findViewById(R.id.login);
         Login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, LoginActivity.class);
