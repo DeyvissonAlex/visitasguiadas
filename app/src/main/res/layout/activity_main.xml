@@ -12,36 +12,6 @@
     tools:context="br.pucrs.petinf.visitasguiadas.MainActivity"
     android:background="@drawable/bg">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_pucrs"
-        android:id="@+id/imageView2"
-        android:layout_below="@id/login"
-        android:layout_toStartOf="@id/login"
-        android:layout_marginTop="156dp"
-        android:layout_toLeftOf="@id/login" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_pet"
-        android:id="@+id/imageView5"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_toEndOf="@id/login"
-        android:layout_toRightOf="@id/login" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_facin"
-        android:id="@+id/imageView3"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp" />
-
     <TextView
         android:text="Visitas Guiadas"
         android:layout_width="wrap_content"
@@ -54,6 +24,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
+
+
     <Button
         android:text="Comece sua jornada"
         android:layout_width="wrap_content"
@@ -64,5 +36,41 @@
         android:paddingEnd="10dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo_pucrs"
+        android:id="@+id/puc"
+        android:layout_below="@id/login"
+        android:layout_toStartOf="@id/login"
+        android:layout_marginTop="156dp"
+        android:layout_toLeftOf="@id/login"
+        android:clickable="true"
+        android:onClick="img_click" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo_pet"
+        android:id="@+id/pet"
+        android:layout_alignTop="@id/puc"
+        android:layout_toEndOf="@id/login"
+        android:layout_toRightOf="@id/login"
+        android:clickable="true"
+        android:onClick="img_click" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo_facin"
+        android:id="@+id/facin"
+        android:layout_alignTop="@id/puc"
+        android:layout_toLeftOf="@id/pet"
+        android:layout_toRightOf="@id/puc"
+        android:layout_centerHorizontal="true"
+        android:onClick="img_click"/>
 
 </RelativeLayout>
