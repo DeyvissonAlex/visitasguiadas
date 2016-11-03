@@ -31,7 +31,8 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".Inicial"></activity>
+        <activity android:name=".Inicial" />
+        <activity android:name=".FACIN"></activity>
     </application>
 
 </manifest>

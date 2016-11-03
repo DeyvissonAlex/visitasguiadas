@@ -79,6 +79,13 @@
                 android:onClick="ClickCadastro"
                 android:background="@drawable/botaoredondo" />
 
+            <Button
+                android:text="Acesso por leitura de digital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/master"
+                android:layout_weight="1" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
