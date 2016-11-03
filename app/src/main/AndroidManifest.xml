@@ -32,7 +32,9 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
         <activity android:name=".Inicial" />
-        <activity android:name=".FACIN"></activity>
+        <activity android:name=".FACIN" />
+        <activity android:name=".Cadastro" />
+        <activity android:name=".Aluno_cadastro"></activity>
     </application>
 
 </manifest>
