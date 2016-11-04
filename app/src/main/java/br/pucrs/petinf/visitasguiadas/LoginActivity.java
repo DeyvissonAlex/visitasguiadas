@@ -100,7 +100,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(LoginActivity.this, Inicial.class);
+                Intent it = new Intent(LoginActivity.this, Cadastro.class);
                 startActivity(it);
             }
         });

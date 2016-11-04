@@ -34,7 +34,8 @@
         <activity android:name=".Inicial" />
         <activity android:name=".FACIN" />
         <activity android:name=".Cadastro" />
-        <activity android:name=".Aluno_cadastro"></activity>
+        <activity android:name=".Aluno_cadastro" />
+        <activity android:name=".Nao_aluno_cadastro"></activity>
     </application>
 
 </manifest>

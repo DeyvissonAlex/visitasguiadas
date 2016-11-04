@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/botaoredondo"
         android:paddingLeft="7sp"
-        android:paddingRight="7sp"/>
+        android:paddingRight="7sp" />
 
     <Button
         android:text="Não aluno"
