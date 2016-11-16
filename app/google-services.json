@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "583592558001",
+    "firebase_url": "https://visitasguiadas-994d3.firebaseio.com",
+    "project_id": "visitasguiadas-994d3",
+    "storage_bucket": "visitasguiadas-994d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583592558001:android:a0779e1580c9ea6a",
+        "android_client_info": {
+          "package_name": "br.pucrs.petinf.visitasguiadas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583592558001-p0gmltgcblqe46p89d9opp5fs72lqsfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.pucrs.petinf.visitasguiadas",
+            "certificate_hash": "A0385FDB8EC444CE867CA9240F8BFAC7A1F1F414"
+          }
+        },
+        {
+          "client_id": "583592558001-odvt611mmidbv4h7hf313ondm4r68o0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8QdivBa6EbFNWxQRJPX1HZbXE9v10mqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583592558001-odvt611mmidbv4h7hf313ondm4r68o0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
