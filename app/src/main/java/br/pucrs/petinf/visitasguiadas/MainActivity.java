@@ -35,21 +35,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
-
-
     }
 
     public void img_click(View v) {
         Uri u;
         switch(v.getId()) {
-            case R.id.puc:
-                u = Uri.parse("http://pucrs.br");
+            case R.id.pet:
+                u = Uri.parse("http://www.inf.pucrs.br/petinf");
                 break;
             case R.id.facin:
                 u = Uri.parse("http://www.pucrs.br/facin");
                 break;
-            case R.id.pet:
-                u = Uri.parse("http://www.inf.pucrs.br/petinf");
+            case R.id.puc:
+                u = Uri.parse("http://pucrs.br");
                 break;
             default:
                 u = Uri.parse("http://google.com");

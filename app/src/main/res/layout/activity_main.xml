@@ -5,72 +5,69 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.pucrs.petinf.visitasguiadas.MainActivity"
-    android:background="@drawable/bg">
+    tools:context="br.pucrs.petinf.visitasguiadas.MainActivity">
 
     <TextView
-        android:text="Visitas Guiadas"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Visitas Guiadas"
         android:textColor="#ffffff"
         android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_marginTop="68dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-
+        android:textStyle="bold" />
 
     <Button
-        android:text="Comece sua jornada"
+        android:id="@+id/inicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/inicio"
-        android:background="@drawable/botaoredondo"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:background="@drawable/botaoredondo"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="Comece sua jornada" />
 
     <ImageView
+        android:id="@+id/pet"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_pucrs"
-        android:id="@+id/puc"
         android:layout_below="@id/inicio"
-        android:layout_toStartOf="@id/inicio"
         android:layout_marginTop="156dp"
         android:layout_toLeftOf="@id/inicio"
+        android:layout_toStartOf="@id/inicio"
         android:clickable="true"
-        android:onClick="img_click" />
-
-
+        android:onClick="img_click"
+        app:srcCompat="@drawable/logo_pet" />
 
     <ImageView
+        android:id="@+id/facin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/pet"
+        android:layout_below="@id/inicio"
+        android:layout_toLeftOf="@+id/puc"
+        android:layout_toRightOf="@+id/pet"
+        android:onClick="img_click"
+        app:srcCompat="@drawable/logo_facin" />
+
+    <ImageView
+        android:id="@+id/puc"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_pet"
-        android:id="@+id/pet"
-        android:layout_alignTop="@id/puc"
+        android:layout_alignTop="@id/pet"
+        android:layout_below="@id/inicio"
         android:layout_toEndOf="@id/inicio"
         android:layout_toRightOf="@id/inicio"
         android:clickable="true"
-        android:onClick="img_click" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_facin"
-        android:id="@+id/facin"
-        android:layout_alignTop="@id/puc"
-        android:layout_toLeftOf="@id/pet"
-        android:layout_toRightOf="@id/puc"
-        android:layout_centerHorizontal="true"
-        android:onClick="img_click"/>
+        android:onClick="img_click"
+        app:srcCompat="@drawable/logo_pucrs" />
 
 </RelativeLayout>
