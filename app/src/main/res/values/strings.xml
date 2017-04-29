@@ -2,7 +2,7 @@
     <string name="app_name">Visitas Guiadas</string>
     <string name="title_activity_login">Entre no Visitas Guiadas</string>
 
-    <!-- Strings related to login -->
+    <!-- Strings related to login_aluno -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Senha </string>
     <string name="action_sign_in">Login</string>

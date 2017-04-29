@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_inicial"
+    android:id="@+id/interesses"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/facin_escada"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/facin_escada"
-    tools:context="br.pucrs.petinf.visitasguiadas.Inicial">
+    tools:context="br.pucrs.petinf.visitasguiadas.Interesses">
 
     <TextView
-        android:text="Interesses"
+        android:id="@+id/titulo_interesses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:id="@+id/textView3"
+        android:text="Interesses"
         android:textColor="@color/colorWhite"
         android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold" />
 
     <Button
-        android:text="FACIN"
+        android:id="@+id/botaoFacin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:id="@+id/fac"
-        android:background="@drawable/botaoredondo"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="Agendar Visita"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:id="@+id/button3"
-        android:background="@drawable/botaoredondo"
-        android:layout_below="@+id/fac"
+        android:layout_below="@+id/titulo_interesses"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/botao_redondo"
+        android:text="FACIN" />
+
+    <Button
+        android:id="@+id/botaoAgendarVisita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botaoFacin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/botao_redondo"
         android:paddingLeft="7sp"
-        android:paddingRight="7sp"/>
+        android:paddingRight="7sp"
+        android:text="Agendar Visita" />
 </RelativeLayout>

@@ -3,11 +3,11 @@ package br.pucrs.petinf.visitasguiadas;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Aluno_cadastro extends AppCompatActivity {
+public class CadastroVisitante extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aluno_cadastro);
+        setContentView(R.layout.cadastro_visitante);
     }
 }

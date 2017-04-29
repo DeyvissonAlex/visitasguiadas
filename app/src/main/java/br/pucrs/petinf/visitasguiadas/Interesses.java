@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Inicial extends AppCompatActivity {
+public class Interesses extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_interesses);
+        setContentView(R.layout.interesses);
 
-        Button botao = (Button) findViewById(R.id.fac);
+        Button botao = (Button) findViewById(R.id.botaoFacin);
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(Inicial.this, FACIN.class);
+                Intent it = new Intent(Interesses.this, Facin.class);
                 startActivity(it);
             }
         });
